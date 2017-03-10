@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>简洁的jq手风琴效果</title>
+    <style>
+        *{margin: 0; padding: 0;}
+        #content {
+            list-style: none;
+            width:800px;
+            height: 300px;
+            position: relative;
+            overflow: hidden;
+            margin:50px auto;
+        }
+        #content li{
+            width:500px;
+            height:300px;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+<ul id="content">
+    <li style="background:red;left:0px;"><img src="img/1.jpg" alt=""></li>
+    <li style="background:blue;left:500px;"><img src="img/2.jpg" alt=""></li>
+    <li style="background:yellow;left:600px; "><img src="img/3.jpg" alt=""></li>
+    <li style="background:green;left:700px; "><img src="img/4.jpg" alt=""></li>
+</ul>
+</body>
+<script type="text/javascript" src="jquery-3.1.1.js"></script>
+<script >
+    $(function(){
+        $('li').mouseenter(function(){
+            for(var i=0;i<$('li').length;i++){
+                if($(this).index()>=i){
+                    $('li').eq(i).stop().animate({left:i*100});
+                }else{
+                    $('li').eq(i).stop().animate({left:i*100+400});
+                }
+            }
+        })
+    });
+</script>
+</html>

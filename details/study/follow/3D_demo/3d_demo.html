@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>3D模型</title>
+    <link rel="stylesheet" href="../../../../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="3d.css">
+    <link rel="stylesheet" href="../../css/study_main.css">
+</head>
+<body style="background: rgba(119, 60, 8, 0.95)">
+<div class="container">
+    <!--3d demo图形-->
+    <div class="camera">
+        <div class="stage">
+            <div class="cube front"><p>前</p></div>
+            <div class="cube back"><p>后</p></div>
+            <div class="cube left"><p>左</p></div>
+            <div class="cube right"><p>右</p></div>
+            <div class="cube up"><p>顶</p></div>
+            <div class="cube down"><p>底</p></div>
+        </div>
+    </div>
+
+    <!--左侧样式调节列-->
+    <div id="control">
+        <!--左第一列-->
+        <div class="left_aside_l">
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label for="number_1">旋转X：</label>
+                    <input type="number" id="number_1" class="form-control" value="-45">
+                </div>
+            </form>
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label for="number_2">旋转Y：</label>
+                    <input type="number" id="number_2" class="form-control" value="-45">
+                </div>
+            </form>
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label for="number_3">旋转Z：</label>
+                    <input type="number" id="number_3" class="form-control" value="0">
+                </div>
+            </form>
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label for="range_1">视点距离：</label>
+                    <input type="range" id="range_1" class="form-control" placeholder="请输入距离值" value="2000" min="400" max="6000">
+                </div>
+            </form>
+            <button class="btn btn-lg btn-primary" id="reset">重置</button>
+        </div>
+        <!--左中间列-->
+        <div class="left_aside_c">
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label for="color_1">前—面颜色：</label>
+                    <input type="color" id="color_1" class="form-control" value="#64e1b4">
+                </div>
+            </form>
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label for="color_2">后—面颜色：</label>
+                    <input type="color" id="color_2" class="form-control" value="#0c12ff">
+                </div>
+            </form>
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label for="color_3">左—面颜色：</label>
+                    <input type="color" id="color_3" class="form-control" value="#fe3845">
+                </div>
+            </form>
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label for="color_4">右—面颜色：</label>
+                    <input type="color" id="color_4" class="form-control" value="#ffff0b">
+                </div>
+            </form>
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label for="color_5">顶—面颜色：</label>
+                    <input type="color" id="color_5" class="form-control" value="#302c66">
+                </div>
+            </form>
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label for="color_6">底—面颜色：</label>
+                    <input type="color" id="color_6" class="form-control" value="#000000">
+                </div>
+            </form>
+        </div>
+        <!--左第三列-->
+        <div class="left_aside_r">
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label for="range_2">前—颜色透明度：</label>
+                    <input type="range" id="range_2" class="form-control" value="60" min="0" max="100">
+                </div>
+            </form>
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label for="range_3">后—颜色透明度：</label>
+                    <input type="range" id="range_3" class="form-control" value="50" min="0" max="100">
+                </div>
+            </form>
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label for="range_4">左—颜色透明度：</label>
+                    <input type="range" id="range_4" class="form-control" value="50" min="0" max="100">
+                </div>
+            </form>
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label for="range_5">右—颜色透明度：</label>
+                    <input type="range" id="range_5" class="form-control" value="60" min="0" max="100">
+                </div>
+            </form>
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label for="range_6">顶—颜色透明度：</label>
+                    <input type="range" id="range_6" class="form-control" value="60" min="0" max="100">
+                </div>
+            </form>
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label for="range_7">底—颜色透明度：</label>
+                    <input type="range" id="range_7" class="form-control" value="50" min="0" max="100">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!--停靠左上边界导航-->
+    <div class="container img-rounded" id="home">
+        <div class="row">
+            <div>
+                <h2><a href="../../../../index.html">首页</a></h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--javascript-->
+<script src="../../../../js/jquery.min.js"></script>
+<script src="3d.js"></script>
+</body>
+</html>

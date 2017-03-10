@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resume</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <style>
+        @font-face {
+            font-family: 'hyxuejunJ';
+            src: url('font/hanyi-font/hyxuejunJ.ttf');
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        h3 {
+            font-weight: 600;
+        }
+
+        div.container {
+            width: 794px;
+            height: 1150px;
+            margin: 0 auto;
+            padding: 0;
+            border: 1px solid black;
+        }
+
+        div.container div.resume {
+            font-family: hyxuejunJ;
+        }
+
+        div.container div.en_resume {
+            font-size: 30px;
+            position: absolute;
+            top: 80px;
+            left: 80px;
+            letter-spacing: 2px;
+        }
+
+        div.container div.en_resume b {
+            font-size: 50px;
+        }
+
+        div.container span.first_top {
+            position: relative;
+            top: 80px;
+            left: 100px;
+            font-size: 25px;
+            letter-spacing: 5px;
+        }
+
+        div.container span.second_end {
+            position: absolute;
+            top: 75px;
+            left: 180px;
+            font-size: 60px;
+        }
+
+        div.container div.information {
+            position: absolute;
+            top: 150px;
+            right: 0px;
+        }
+
+        div.container div.row_skill {
+            position: relative;
+            top: 300px;
+            left: 20px;
+        }
+
+        div.container div.row_intentionJob {
+            position: relative;
+            top: 350px;
+            left: 20px;
+        }
+
+        div.container div.row_internship {
+            position: relative;
+            top: 400px;
+            left: 20px;
+        }
+
+        div.container div.row_internship span,
+        div.row_edu_bg span{
+            margin-right: 20px;
+            font-weight: 700;
+            font-size: 18px;
+            letter-spacing: 1px;
+        }
+
+        div.row_self_ass span{
+            letter-spacing: 1px;
+        }
+
+        div.row_edu_bg {
+            position: relative;
+            top: 450px;
+            left: 20px;
+        }
+
+        div.row_self_ass {
+            position: relative;
+            top: 500px;
+            left: 20px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <!--顶层简历文字和基本资料栏-->
+    <div class="row">
+        <div class="col-lg-6 resume">
+            <div class="en_resume"><b>R</b><span>esume</span></div>
+            <span class="first_top">个人</span>
+            <span class="second_end">简历</span>
+        </div>
+        <div class="col-lg-6 information">
+            <h2><b>基本资料</b></h2>
+            <p><span>姓名：胡绍玉</span>&emsp;&emsp;<span>性别：男</span>&emsp;&emsp;<span>民族：汉</span></p>
+            <p><span>学历：本科</span>&emsp;&emsp;<span>专业：计算机科学与技术</span></p>
+            <p>联系地址：广州市大学城广州中医药大学K526</p>
+            <p>联系电话：18814096994</p>
+            <p>电子邮箱：1558254995@qq.com</p>
+        </div>
+    </div>
+
+    <!--第二层其他信息栏-->
+    <div class="row">
+        <div class="row_skill">
+            <h3>职业技能</h3>
+            <span>HTML5、CSS、JavaScript、jQuery、AngularJS、Bootstrap</span>
+        </div>
+
+        <div class="row_intentionJob">
+            <h3>求职意向</h3>
+            <span>web前端开发</span>
+        </div>
+
+        <div class="row_internship">
+            <h3>实习经历</h3>
+            <span>2016年12月--现在</span>
+            <span>番禺中心医院</span>
+            <span>信息科</span>
+            <div>
+                <ul>
+                    <li>参与医院活动网站页面的编写</li>
+                    <li>参与医院新系统的需求分析、系统界面和数据库设计</li>
+                    <li>参与医院内部新邮件系统的实施工作</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row_edu_bg">
+            <h3>教育背景</h3>
+            <span>2013年9月--2017年6月</span>
+            <span>广州中医药大学</span>
+        </div>
+
+        <div class="row_self_ass">
+            <h3>自我评价</h3>
+            <ul>
+                <li>做过的每一份工作，我都将它当成我的事业来做。</li>
+                <li>工作并非混日子，而是一种职责一个自我能力的表现途径。</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--javascript-->
+<script src="js/jquery.min.js"></script>
+<script>
+    (function ($) {
+        var ri_li_style = $('.row_internship ul li,.row_self_ass ul li');
+        $(ri_li_style).addClass('list-unstyled');
+        $(ri_li_style).css({'margin-top': '5px', 'letter-spacing': '1px'});
+    })(jQuery);
+</script>
+
+</body>
+</html>

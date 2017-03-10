@@ -1,0 +1,20 @@
+[
+  {
+    "seq":1,
+    "imgUrl":"../../images/portfolio/canvas_clock.jpg",
+    "text":"实时的时钟",
+    "url":"follow/canvas/canvas.html"
+  },
+  {
+    "seq":2,
+    "imgUrl":"../../images/portfolio/css3_3d.jpg",
+    "text":"3D模型",
+    "url":"follow/3D_demo/3d_demo.html"
+  },
+  {
+    "seq":3,
+    "imgUrl":"../../images/portfolio/echarts.jpg",
+    "text":"图表",
+    "url":"follow/echarts_study/echarts.html"
+  }
+]

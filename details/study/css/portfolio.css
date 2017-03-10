@@ -1,0 +1,50 @@
+body{
+    padding-top: 40px;
+}
+div#demo{
+    margin-top: 50px;
+}
+div.thumbnail{
+    float: left;
+    /*margin-left: 20px;*/
+    padding: 5px;
+    border: none;
+}
+nav{
+    margin: 0 25px;
+    border-top: 2px solid #a86404;
+    border-radius: 5px;
+    font-size: 25px;
+}
+nav ul li span{
+    font-size: 25px;
+}
+nav ul li ul li {
+    text-align: center;
+    letter-spacing: 5px;
+}
+@keyframes demo_shadow {
+    0%{
+        box-shadow: 1px 1px 0px 0px rgba(57,54,159,0.5) inset,-1px -1px 0px 0px rgba(57,54,159,0.5) inset;
+    }
+    25%{
+        box-shadow: 3px 3px 3px 3px rgba(152,4,126,0.5) inset,-3px -3px 3px 3px rgba(152,4,126,0.5) inset;
+    }
+    50%{
+        box-shadow: 5px 5px 5px 5px rgba(4,152,146,0.3) inset,-5px -5px 5px 5px rgba(4,152,146,0.3) inset;
+    }
+    75%{
+        box-shadow: 3px 3px 5px 3px rgba(255,215,0,0.4) inset,-3px -3px 5px 3px rgba(255,215,0,0.4) inset;
+    }
+    100%{
+        box-shadow: 1px 1px 0px 0px rgba(57,54,159,0.5) inset,-1px -1px 0px 0px rgba(57,54,159,0.5) inset;
+    }
+    /*80%{*/
+        /*box-shadow: 2px 2px 5px 5px rgba(11,142,3,0.5) inset,-2px -2px 5px 2px rgba(11,142,3,0.5) inset;*/
+    /*}*/
+}
+div#demo div.row div.thumbnail:hover{
+    border: 0;
+    border-radius: 5px;
+    animation: demo_shadow 5s ease infinite;
+}

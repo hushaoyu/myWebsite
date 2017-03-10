@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../../css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../bootstrap/css/darkstrap.min.css">
+    <link rel="stylesheet" href="reset.css">
+    <!--javascript-->
+    <script src="../../js/jquery.min.js"></script>
+    <script src="../../bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!--导航条-->
+<div class="container">
+    <!--固定在顶部的导航条-->
+    <div class="navbar navbar-inverse navbar-fixed-top navbar-top">
+        <div class="collapse navbar-collapse example">
+            <div class="navbar-header">
+                <b class="badge">关于我</b>
+            </div>
+
+            <ul class="nav navbar-nav">
+                <li><a href="../../index.html"><span class="fa fa-home"></span> 首页</a></li>
+                <li><a href="#" data-toggle="dropdown" class="dropdown-toggle">展示风格<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">简历</a></li>
+                        <li><a href="#">滚动字幕</a></li>
+                        <li><a href="#">视频</a></li>
+                    </ul>
+                </li>
+                <li id="reload"><a href="#">重置页面</a></li>
+            </ul>
+
+            <form action="#" class="navbar-form navbar-right">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="请输入关键字"/>
+                </div>
+                <button type="submit" class="btn btn-default">搜索</button>
+            </form>
+        </div>
+        <!--窄屏时显示-->
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".example">导航</button>
+    </div>
+</div>
+
+<!--主体三列布局-->
+<section class="container-fluid">
+    <div class="row">
+        <!--左侧列功能选项列表-->
+        <aside class="col-lg-3">
+            <!--字体风格-->
+            <ol class="breadcrumb">
+                <li><span>字体风格</span></li>
+                <hr>
+                <li><span>汉仪</span></li>
+                <li><a href="#">国强行书</a></li>
+                <li><a href="#">雪君体</a></li>
+                <li><a href="#">默认</a></li>
+            </ol>
+            <!--模版颜色-->
+            <ol class="breadcrumb">
+                <li><span>模版颜色</span></li>
+                <hr>
+                <li class="demo_color"><a href="#">默认</a></li>
+                <li class="demo_color"><a href="#">信息蓝</a></li>
+                <li class="demo_color"><a href="#">重点蓝</a></li>
+                <li class="demo_color"><a href="#">成功绿</a></li>
+                <li class="demo_color"><a href="#">危险红</a></li>
+                <li class="demo_color"><a href="#">无样式</a></li>
+            </ol>
+        </aside>
+        <!--中间列主体内容显示-->
+        <aside class="col-lg-7 second">
+            <div class="panel panel-default">
+                <div class="panel-heading">个人简介</div>
+                <div class="panel-body">
+                    <table class="table table-bordered table-hover">
+                        <tbody>
+                        <tr>
+                            <td>姓名</td>
+                            <td>唐飞和唐菲菲</td>
+                            <td>性别</td>
+                            <td>男</td>
+                            <td>民族</td>
+                            <td>汉族</td>
+                        </tr>
+                        <tr>
+                            <td>出生年月</td>
+                            <td>1995.03.09</td>
+                            <td>联系电话</td>
+                            <td>18814096994</td>
+                            <td>工作经验</td>
+                            <td>应届生</td>
+                        </tr>
+                        <tr>
+                            <td>学历</td>
+                            <td>本科</td>
+                            <td>专业</td>
+                            <td>计算机科学与技术</td>
+                            <td>毕业学校</td>
+                            <td>广州中医药大学</td>
+                        </tr>
+                        <tr>
+                            <td>住址</td>
+                            <td colspan="5">广东省广州市大学城广州中医药大学K526</td>
+                        </tr>
+                        <tr>
+                            <td>电子邮箱</td>
+                            <td colspan="5">18814096994@163.com</td>
+                        </tr>
+                        <tr class="success">
+                            <th colspan="6">求职意向</th>
+                        </tr>
+                        <tr>
+                            <td hidden></td>
+                            <td colspan="6">
+                                <p>web前端工程师</p>
+                            </td>
+                        </tr>
+                        <tr class="success">
+                            <th colspan="6">实践经历</th>
+                        </tr>
+                        <tr class="fl">
+                            <td class="hidden"></td>
+                            <td colspan="6">
+                                <time>2016.12.1<span class="glyphicon glyphicon-minus"></span>2017.3.31</time>
+                                <h4><strong><span class="fa fa-hospital-o"></span> 番禺中心医院</strong></h4>
+                                <p><b>信息科：</b>医院投票网页；新系统实施工作；儿科门诊搬迁设备安装和系统维护。</p>
+                            </td>
+                        </tr>
+                        <tr class="success">
+                            <th colspan="6">自我评价</th>
+                        </tr>
+                        <tr class="fl">
+                            <td class="hidden"></td>
+                            <td colspan="6">
+                                <p>
+                                    我们常常安静，但这并不意味着我们不想与人交谈。我们很可能想谈论许多的想法，
+                                    但却会考虑对方不见得同样感兴趣。我们更愿意听你说话因为我们想了解你，而且明白你会喜欢表达出来。
+                                </p>
+                                <p>
+                                    我们喜欢身处人群，但这并不意味着我们想和人交谈。
+                                    谈话需要特意努力。对于我们来说，能和人们在一起已经足够开心。我明白这有些难懂。
+                                </p>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="panel-footer"><span class="fa fa-user-circle-o"></span> 唐飞和唐菲菲</div>
+            </div>
+        </aside>
+        <!--右侧列列表-->
+        <aside class="col-lg-2">
+            <ol class="breadcrumb">
+                <li><span>字体大小</span></li>
+                <br><br>
+                <li><a href="#">超大</a></li>
+                <li><a href="#">大</a></li>
+                <li><a href="#">默认</a></li>
+            </ol>
+            <ol class="breadcrumb">
+                <li><span>字体颜色</span></li>
+                <br><br>
+                <li><a href="#">蓝绿</a></li>
+                <li><a href="#">默认</a></li>
+                <li><a href="#">橙红</a></li>
+            </ol>
+        </aside>
+    </div>
+</section>
+
+<!--javascript-->
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+.camera{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-left: 400px;
+    width: 800px;
+    height: 800px;
+    perspective: 2000px;
+    perspective-origin: center center;
+}
+.stage{
+    width: 100%;
+    height: 100%;
+    border: 1px dashed #000;
+    transform: rotateX(-45deg) rotateY(-45deg) rotateZ(0deg);
+    transform-style: preserve-3d;
+}
+.cube{
+    position: absolute;
+    left: 100px;
+    top:50px;
+    margin-left: 30px;
+    width: 600px;
+    height: 600px;
+    color: white;
+    background-color: rgba(255,85,85,0.5);
+}
+.up{
+    background-color: #302c66;
+    opacity:0.6;
+    transform: rotateX(90deg) translateZ(100px);
+}
+.up p{
+    position: absolute;
+    left: 45%;
+    bottom: 5px;
+}
+.down{
+    background-color: #000000;
+    opacity: 0.5;
+    transform: rotateX(-90deg) translateZ(100px);
+}
+.left{
+    background-color: #fe3845;
+    opacity: 0.5;
+    transform: rotateY(-90deg) translateZ(100px);
+}
+.right{
+    background-color: #ffff0b;
+    opacity:0.6;
+    transform: rotateY(90deg) translateZ(100px);
+}
+.front{
+    background-color: #64e1b4;
+    opacity:0.6;
+    transform: translateZ(100px);
+}
+.back{
+    background-color: #0c12ff;
+    opacity: 0.5;
+    transform: rotateY(180deg) translateZ(100px);
+}
+div.container .left_aside_l{
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+div.container .left_aside_c{
+     position: absolute;
+     left: 280px;
+     top: 50px;
+ }
+div.container .left_aside_r{
+    position: absolute;
+    left: 400px;
+    top: 50px;
+}

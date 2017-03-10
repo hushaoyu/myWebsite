@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'HYGuoQiangXingShuW';
+    src: url('../../font/hanyi-font/HYGuoQiangXingShuW.ttf');
+}
+@font-face {
+font-family: 'hyxuejunF';
+    src: url('../../font/hanyi-font/hyxuejunF.ttf');
+}
+body{
+    padding-top: 80px;
+    font-family: sans-serif;
+}
+.fl{
+    text-align: left;
+}
+div.container .example{
+    padding: 10px;
+}
+div.container ul{
+    text-align: center;
+}
+section.container-fluid aside{
+    text-align: center;
+}
+section.container-fluid aside .second{
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+section.container-fluid aside .second div{
+    margin: 0 5px;
+}
+section aside table tr th{
+    color: #111213;
+}
+section aside table tr h4{
+    color: black;
+}
