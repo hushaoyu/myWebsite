@@ -23,18 +23,19 @@
             width: 794px;
             height: 1150px;
             margin: 0 auto;
-            padding: 0;
-            border: 1px solid black;
+            padding: 35px;
+            /*border: 1px solid black;*/
         }
 
         div.container div.resume {
             font-family: hyxuejunJ;
+            margin-left: 20px;
         }
 
         div.container div.en_resume {
             font-size: 30px;
             position: absolute;
-            top: 80px;
+            top: 90px;
             left: 80px;
             letter-spacing: 2px;
         }
@@ -45,7 +46,7 @@
 
         div.container span.first_top {
             position: relative;
-            top: 80px;
+            top: 90px;
             left: 100px;
             font-size: 25px;
             letter-spacing: 5px;
@@ -53,7 +54,7 @@
 
         div.container span.second_end {
             position: absolute;
-            top: 75px;
+            top: 85px;
             left: 180px;
             font-size: 60px;
         }
@@ -105,11 +106,30 @@
             top: 500px;
             left: 20px;
         }
+
+        img#corner_topRight{
+            position: absolute;
+            z-index: -100;
+            transform: scale(0.9) rotate(-2deg);
+            margin-left: -58px;
+            margin-top: -47px;
+        }
+
+        img#right_aside{
+            position: absolute;
+            opacity: 0.7;
+            margin-left: 540px;
+            margin-top: -37px;
+            height: 100%;
+        }
     </style>
 </head>
 <body>
 <div class="container">
 
+    <img src="images/test/flower_corner_1.gif" alt="" id="corner_topRight">
+    <img src="images/test/right.gif" alt="" id="right_aside">
+    
     <!--顶层简历文字和基本资料栏-->
     <div class="row">
         <div class="col-lg-6 resume">
@@ -136,7 +156,7 @@
 
         <div class="row_intentionJob">
             <h3>求职意向</h3>
-            <span>web前端开发</span>
+            <h4><b>web前端开发</b></h4>
         </div>
 
         <div class="row_internship">
