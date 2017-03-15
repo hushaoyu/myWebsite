@@ -6,7 +6,7 @@
 
     //重置按钮
     $('#reset').click(function () {
-        location.reload();
+        window.location.reload();
     });
 
     var number_text = $('input[type=number]');

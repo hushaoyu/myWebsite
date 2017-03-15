@@ -12,7 +12,8 @@
     <meta charset="utf-8">
     <title>个人网站</title>
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Mobile Specific Metas
     ================================================== -->
@@ -144,14 +145,7 @@
 
         <div class="nine columns main-col">
 
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
-                rem aperiam,
-                eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo
-                enim ipsam
-                voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui
-                ratione
-                voluptatem sequi nesciunt.
-            </p>
+            <p>Make your life easy !</p>
 
             <div class="bars">
 
@@ -446,12 +440,9 @@
 
         </div><!-- modal-01 End -->
 
-        <div id="last" class="twelve columns"><button class="btn btn-warning btn-lg">
-            <a href="details/study/study_index.html" data-toggle="tooltip" data-placement="right" title="想浏览更多？">查看更多案例</a></button>
-        </div>
-        <div class="tooltip">
-            <div class="tooltip-arrow"></div>
-            <div class="tooltip-inner">想浏览更多？</div>
+        <div id="last" class="twelve columns">
+            <!--兼容ie和firefox关于a标签的bug-->
+            <input type="button" class="btn btn-warning btn-lg" onclick="window.open('details/study/study_index.html')" value="查看更多案例">
         </div>
 
 
@@ -471,7 +462,7 @@
 
             <div class="header-col">
 
-                <h1><a class="type_1">生活影记</a></h1>
+                <h1><a class="type_1" href="details/life/life.html">影像馆</a></h1>
 
             </div>
 
@@ -483,14 +474,14 @@
 
                         <li>
                             <blockquote>
-                                <img src="images/life/test1.jpg">
+                                <img src="images/life/test1.jpg" class="img-thumbnail">
                                 <cite>花瓣网采集图-1</cite>
                             </blockquote>
                         </li> <!-- slide ends -->
 
                         <li>
                             <blockquote>
-                                <img src="images/life/test2.jpg">
+                                <img src="images/life/test2.jpg" class="img-thumbnail">
                                 <cite>花瓣网采集图-2</cite>
                             </blockquote>
                         </li> <!-- slide ends -->

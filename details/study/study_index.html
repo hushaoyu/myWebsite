@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Title</title>
+    <title>学习案例</title>
     <link rel="stylesheet" href="../../css/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="../../bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="css/darkstrap.min.css">
@@ -54,10 +55,10 @@
     <div class="container" id="demo">
         <div class="row">
             <div class="thumbnail col-sm-6 col-md-4 col-lg-3" ng-repeat="detail in details">
-                <a href="" class="thumbnail"><img ng-src="{{detail.imgUrl}}" alt="{{detail.text}}"></a>
+                <a href="" class="thumbnail"><img ng-src="{{detail.imgUrl}}" title="{{detail.text}}" alt="{{detail.text}}"></a>
                 <div class="caption">
                     <h3>{{detail.text}}</h3>
-                    <p><a href="{{detail.url}}" target="_blank" class="btn btn-primary" role="button">详细<<</a></p>
+                    <p><a href="{{detail.url}}" target="_blank" class="btn btn-primary" role="button">详细 >></a></p>
                 </div>
             </div>
         </div>

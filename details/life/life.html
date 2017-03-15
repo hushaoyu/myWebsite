@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>影像馆</title>
+    <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../bootstrap/css/bootstrap-pagination.min.css">
+    <link rel="stylesheet" href="css/life.css">
+</head>
+<body ng-app='life' ng-controller="lifeController">
+<div class="container-fluid">
+    <div class="aside col-lg-3">
+        <div class="input-group input-group-lg">
+            <input type="text" class="form-control" placeholder="关键字...">
+            <span class="btn input-group-addon"><i class="glyphicon glyphicon-search"></i></span>
+        </div><!-- /input-group -->
+    </div>
+    <div class="col-lg-9">
+        <div class="images col-lg-4 col-md-6" ng-repeat="detail in details">
+            <a href="" class="thumbnail"><img src="{{detail.imgUrl}}" alt="{{detail.text}}" class="img-rounded"></a>
+        </div>
+        <nav>
+            <ul id="paging" class="pagination"></ul>
+        </nav>
+    </div>
+</div>
+
+<!--javascript-->
+<script src="../../js/jquery.min.js"></script>
+<script src="../../js/angular.min.js"></script>
+<script src="../../bootstrap/js/bootstrap.min.js"></script>
+<script src="../../bootstrap/js/bootstrap-pagination.min.js"></script>
+<script src="js/life-module.js"></script>
+<script src="js/life.js"></script>
+</body>
+</html>

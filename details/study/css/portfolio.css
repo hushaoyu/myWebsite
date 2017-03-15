@@ -48,3 +48,7 @@ div#demo div.row div.thumbnail:hover{
     border-radius: 5px;
     animation: demo_shadow 5s ease infinite;
 }
+
+#demo a.thumbnail{
+    border: none;
+}

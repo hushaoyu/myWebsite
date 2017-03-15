@@ -125,10 +125,11 @@ jQuery(document).ready(function ($) {
         namespace: "flex-",
         controlsContainer: ".flex-container",
         animation: 'slide',
+        pauseOnHover: true,
         controlNav: true,
         directionNav: false,
         smoothHeight: true,
-        slideshowSpeed: 7000,
+        slideshowSpeed: 3500,
         animationSpeed: 600,
         randomize: false
     });

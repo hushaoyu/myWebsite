@@ -765,9 +765,10 @@ section#portfolio div#last {
 
 #life blockquote cite {
     display: block;
-    font-size: 12px;
+    font-size: 20px;
     font-style: normal;
-    line-height: 18px;
+    line-height: 20px;
+    margin-top: 5px;
     color: #fff;
 }
 
@@ -810,6 +811,11 @@ section#portfolio div#last {
     margin: 0;
     padding: 0;
 }
+
+blockquote{
+    border-left: 0 solid black;
+}
+
 
 .flexslider .slides {
     zoom: 1;
@@ -863,7 +869,7 @@ section#portfolio div#last {
 .flex-control-nav {
     width: 100%;
     position: absolute;
-    bottom: -20px;
+    bottom: -30px;
     text-align: left;
 }
 
@@ -875,8 +881,8 @@ section#portfolio div#last {
 }
 
 .flex-control-paging li a {
-    width: 12px;
-    height: 12px;
+    width: 18px;
+    height: 18px;
     display: block;
     background: #ddd;
     background: rgba(255, 255, 255, .3);
@@ -995,12 +1001,20 @@ footer .social-links li {
 }
 
 footer .social-links li img{
+    -moz-transition: all 0.6s ease-in;
+    -ms-transition: all 0.6s ease-in;
     transition: all 0.6s ease-in;
 }
 
 footer .social-links li img:hover {
+    -moz-transform-origin: center center;
+    -ms-transform-origin: center center;
     transform-origin: center center;
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
     transform: rotate(360deg);
+    -moz-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
     transition: all 0.6s ease-out;
 }
 

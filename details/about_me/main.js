@@ -25,7 +25,7 @@
     $('section aside:eq(2) ol:eq(0) li').click(function(){
         var index = $(this).index();
         //alert(index);
-        var font_size = ['24px','20px','14px'];
+        var font_size = ['26px','21px','14px'];
         $(whole).css('font-size',font_size[index-3]);
     });
     //字体颜色
