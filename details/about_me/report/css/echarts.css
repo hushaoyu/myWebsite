@@ -1,0 +1,15 @@
+body{
+    color: #ffffff;
+    padding: 50px;
+    background-color: #ffffff;
+}
+div.wrapper{
+    /*position: absolute;*/
+    width: 1000px;
+    margin: 0 auto;
+}
+div.wrapper div{
+    margin: 50px;
+    border: 1px solid #2aabd2;
+    border-radius: 5px;
+}

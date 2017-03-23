@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>成绩单</title>
+    <link rel="stylesheet" href="css/echarts.css">
+    <script src="js/echarts.min.js"></script>
+</head>
+<body>
+<div id="report" style="width: 1300px;height: 500px"></div>
+
+<!--javascript-->
+<script>
+    var report = echarts.init(document.getElementById('report'));
+
+    var option = {
+        color: ['#3398DB'],
+        title: {
+            text: '我的成绩单',
+            textStyle:{
+                fontWeight:'bolder',
+                fontSize:'22'
+            },
+            left:'45%'
+        },
+        grid: {
+            left: '3%',
+            right: '8%',
+            bottom: '3%',
+            containLabel: true
+        },
+        tooltip: {
+            trigger: 'axis',
+            axisPointer: {            // 坐标轴指示器，坐标轴触发有效
+                type: 'shadow'        // 默认为直线，可选为：'line' | 'shadow'
+            }
+        },
+        legend: {
+            left: '20%',
+            data: ['成绩']
+        },
+
+        xAxis: [
+            {
+                type: 'category',
+                data: ['计算机概论','高等数学','医用物理','C语言','数据结构','计算机图形学','计算机网络安全','操作系统','编译原理','数据库系统','.NET','计算机网络与通信'],
+                axisTick: {
+                    alignWithLabel: true
+                },
+                name: '科目',
+                nameLocation:'end',
+                nameTextStyle: {
+                    fontWeight: 'bold',
+                    fontSize:'20'
+                }
+            }
+        ],
+        yAxis: [
+            {
+                type: 'value',
+                name:'分数',
+                nameLocation:'middle',
+                nameTextStyle:{
+                    fontWeight: 'bold',
+                    fontSize:'20'
+                }
+            }
+        ],
+        series: [
+            {
+                name: '成绩',
+                type: 'bar',
+                barWidth: '60%',
+                data: [78, 65, 79, 71, 65, 82, 78, 76, 75, 90, 66, 81],
+                markPoint: {
+                    data: [
+                        {type: 'max', name: '最大值'},
+                        {type: 'min', name: '最小值'},
+                        {symbolOffset:[0,5]}
+                    ],
+                    itemStyle: {
+                        normal: {
+                            borderType: 'solid',
+                            color: 'green',
+                            borderColor: 'black',
+                            borderWidth: 1
+                        }
+                    }
+                },
+                markLine: {
+                    data: [
+                        {type: 'average', name: '平均值'}
+                    ],
+                    itemStyle: {
+                        normal: {
+                            borderWidth: 1,
+                            lineStyle: {
+                                type: 'solid',
+                                color: 'orange',
+                                width: 4
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    };
+
+    //初始化图表
+    report.setOption(option);
+
+</script>
+</body>
+</html>
