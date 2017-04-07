@@ -6,24 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>影像馆</title>
     <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../../bootstrap/css/bootstrap-pagination.min.css">
+    <link rel="stylesheet" href="css/cypager.min.css">
     <link rel="stylesheet" href="css/life.css">
 </head>
 <body ng-app='life' ng-controller="lifeController">
 <div class="container-fluid">
     <div class="aside col-lg-3">
         <div class="input-group input-group-lg">
-            <input type="text" class="form-control" placeholder="关键字...">
+            <input type="text" class="form-control" placeholder="关键字..." ng-model="searchText">
             <span class="btn input-group-addon"><i class="glyphicon glyphicon-search"></i></span>
         </div><!-- /input-group -->
     </div>
     <div class="col-lg-9">
-        <div class="images col-lg-4 col-md-6" ng-repeat="detail in details">
+        <div class="images col-lg-4 col-md-6" ng-repeat="detail in details | filter:searchText | limitTo:9">
             <a href="" class="thumbnail"><img src="{{detail.imgUrl}}" alt="{{detail.text}}" class="img-rounded"></a>
         </div>
-        <nav>
-            <ul id="paging" class="pagination"></ul>
-        </nav>
+    </div>
+    <!--分页-->
+    <div class="col-lg-3"></div>
+    <div class="col-lg-9">
+        <div id="pagerArea" unselectable="on" onselectstart="return false;" style="-moz-user-select:none;"></div>
+
+        <div id="console" style='padding-left:10px'></div>
     </div>
 </div>
 
@@ -31,8 +35,20 @@
 <script src="../../js/jquery.min.js"></script>
 <script src="../../js/angular.min.js"></script>
 <script src="../../bootstrap/js/bootstrap.min.js"></script>
-<script src="../../bootstrap/js/bootstrap-pagination.min.js"></script>
 <script src="js/life-module.js"></script>
-<script src="js/life.js"></script>
+<script src="js/cypager.min.js"></script>
+
+<script>
+    $(function () {
+//            cypager options
+        $("#pagerArea").cypager({
+            pg_size: 9,
+            pg_total_count: 10,
+            pg_call_fun: function (count) {
+//                console.log($('li:eq(count)').text());
+            }
+        });
+    });
+</script>
 </body>
 </html>

@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="606fb1aa-9087-4f92-b53d-f94e3b30e724" name="默认的" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test.html" afterPath="" />
+    <list default="true" id="606fb1aa-9087-4f92-b53d-f94e3b30e724" name="默认的" comment="to update file README.md">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/details/life/js/life.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/layout.css" afterPath="$PROJECT_DIR$/css/layout.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/details/about_me/about_index.html" afterPath="$PROJECT_DIR$/details/about_me/about_index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/details/study/follow/accordion/index.html" afterPath="$PROJECT_DIR$/details/study/follow/accordion/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/details/life/js/life-module.js" afterPath="$PROJECT_DIR$/details/life/js/life-module.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/details/life/life.html" afterPath="$PROJECT_DIR$/details/life/life.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/details/life/life.json" afterPath="$PROJECT_DIR$/details/life/life.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="dgfp_4_cuz.iws" />
@@ -31,12 +32,12 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-52.25">
-              <caret line="220" column="20" selection-start-line="220" selection-start-column="20" selection-end-line="220" selection-end-column="20" />
+            <state vertical-scroll-proportion="-13.107142">
+              <caret line="125" column="65" selection-start-line="125" selection-start-column="65" selection-end-line="125" selection-end-column="65" />
               <folding>
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -45,7 +46,7 @@
                 <element signature="n#div#5;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#6;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#7;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#11909#12002#0" expanded="false" />
+                <element signature="e#12039#12132#0" expanded="false" />
                 <element signature="n#div#2;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#3;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#3;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -65,24 +66,65 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="report.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/details/about_me/report/report.html">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3838384">
-              <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="-2.0357144">
+              <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about_index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/details/about_me/about_index.html">
+      <file leaf-file-name="说明.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/说明.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.178572">
-              <caret line="30" column="71" selection-start-line="30" selection-start-column="71" selection-end-line="30" selection-end-column="71" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="life-module.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/details/life/js/life-module.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="life.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/details/life/life.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="life.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/details/life/css/life.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="life.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/details/life/life.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.33157894">
+              <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -129,12 +171,8 @@
         <option value="$PROJECT_DIR$/css/default.css" />
         <option value="$PROJECT_DIR$/details/about_me/main.js" />
         <option value="$PROJECT_DIR$/js/init.js" />
-        <option value="$PROJECT_DIR$/details/life/life.json" />
         <option value="$PROJECT_DIR$/details/life/css/life.css" />
-        <option value="$PROJECT_DIR$/details/life/js/life.js" />
-        <option value="$PROJECT_DIR$/details/life/js/life-module.js" />
         <option value="$PROJECT_DIR$/details/study/css/portfolio.css" />
-        <option value="$PROJECT_DIR$/details/life/life.html" />
         <option value="$PROJECT_DIR$/details/study/study_index.html" />
         <option value="$PROJECT_DIR$/details/study/follow/canvas/canvas.html" />
         <option value="$PROJECT_DIR$/details/study/follow/echarts_study/echarts.html" />
@@ -143,11 +181,16 @@
         <option value="$PROJECT_DIR$/details/study/follow/3D_demo/3d_demo.html" />
         <option value="$PROJECT_DIR$/css/layout.css" />
         <option value="$PROJECT_DIR$/details/study/follow/accordion/index.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/details/study/follow/report/report.html" />
         <option value="$PROJECT_DIR$/details/about_me/about_index.html" />
         <option value="$PROJECT_DIR$/details/about_me/report/report.html" />
+        <option value="$PROJECT_DIR$/details/life/js/life.js" />
+        <option value="$PROJECT_DIR$/details/life/life.json" />
+        <option value="$PROJECT_DIR$/details/life/js/life-module.js" />
+        <option value="$PROJECT_DIR$/details/life/life.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -187,7 +230,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -235,12 +277,57 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="about_me" />
+              <option name="myItemId" value="life" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myWebsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myWebsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="details" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="life" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myWebsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myWebsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="details" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="life" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -254,17 +341,17 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\webstorm_workspace\myWebsite\myWebsite\details\study\follow\report\css" />
-      <recent name="D:\webstorm_workspace\myWebsite\myWebsite\details\study\follow\report\js" />
-      <recent name="H:\demo\personalWebResume\dgfp_4_cuz\font\hanyi-font" />
-      <recent name="H:\demo\personalWebResume\dgfp_4_cuz\details\study\follow" />
-      <recent name="H:\demo\personalWebResume\dgfp_4_cuz\portfolio-page\follow\3D_demo" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\webstorm_workspace\myWebsite\myWebsite\details\about_me" />
       <recent name="H:\demo\personalWebResume\dgfp_4_cuz\details" />
       <recent name="H:\demo\personalWebResume\dgfp_4_cuz\portfolio-page\follow\canvas" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\webstorm_workspace\myWebsite\myWebsite\details\life\js" />
+      <recent name="D:\webstorm_workspace\myWebsite\myWebsite\details\life\css" />
+      <recent name="D:\webstorm_workspace\myWebsite\myWebsite\details\study\follow\report\css" />
+      <recent name="D:\webstorm_workspace\myWebsite\myWebsite\details\study\follow\report\js" />
+      <recent name="H:\demo\personalWebResume\dgfp_4_cuz\font\hanyi-font" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.test.html">
@@ -343,19 +430,32 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2199688" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="消息" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2199688" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -368,11 +468,24 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="to update file README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="to update file README.md" />
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/details/about_me/about_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="71" selection-start-line="30" selection-start-column="71" selection-end-line="30" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/details/about_me/reset.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -534,18 +647,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/说明.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/sectional.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.0305467">
           <caret line="133" column="16" selection-start-line="133" selection-start-column="16" selection-end-line="133" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -560,7 +665,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33279744">
           <caret line="313" column="16" selection-start-line="313" selection-start-column="16" selection-end-line="313" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -585,34 +689,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/details/life/css/life.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/details/life/life.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/details/life/js/life-module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/details/life/js/life.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/details/study/css/study_main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35185185">
@@ -624,13 +700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/details/life/life.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.392857">
-          <caret line="5" column="72" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="72" />
         </state>
       </provider>
     </entry>
@@ -697,14 +766,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/details/study/follow/echarts_study/echarts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.7142856">
+          <caret line="92" column="20" selection-start-line="92" selection-start-column="20" selection-end-line="92" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/details/about_me/about_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="71" selection-start-line="30" selection-start-column="71" selection-end-line="30" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/details/about_me/report/report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.464286">
+          <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/details/life/life.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/details/life/css/life.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/details/life/js/life-module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-52.25">
-          <caret line="220" column="20" selection-start-line="220" selection-start-column="20" selection-end-line="220" selection-end-column="20" />
+        <state vertical-scroll-proportion="-13.107142">
+          <caret line="125" column="65" selection-start-line="125" selection-start-column="65" selection-end-line="125" selection-end-column="65" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -713,7 +827,7 @@
             <element signature="n#div#5;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#6;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#7;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#11909#12002#0" expanded="false" />
+            <element signature="e#12039#12132#0" expanded="false" />
             <element signature="n#div#2;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#3;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#3;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -732,30 +846,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/details/study/follow/echarts_study/echarts.html">
+    <entry file="file://$PROJECT_DIR$/说明.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.7142856">
-          <caret line="92" column="20" selection-start-line="92" selection-start-column="20" selection-end-line="92" selection-end-column="20" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/details/about_me/about_index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.178572">
-          <caret line="30" column="71" selection-start-line="30" selection-start-column="71" selection-end-line="30" selection-end-column="71" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/details/about_me/report/report.html">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3838384">
-          <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
+        <state vertical-scroll-proportion="-2.0357144">
+          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/details/life/life.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33157894">
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
