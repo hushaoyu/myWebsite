@@ -39,6 +39,17 @@
         a{
             text-decoration: none;
         }
+        .progress{
+            height: 50px;
+            margin-top: 10px;
+        }
+        .bars span{
+            font-size: 24px;
+        }
+        .im{
+            font-size: 60px;
+            font-weight: bolder;
+        }
     </style>
 
 </head>
@@ -73,9 +84,9 @@
                 和了解更多<a class="smoothscroll" href="#about"> 关于我 </a>的情况.</h3>
             <hr/>
             <ul class="social">
-                <li><a href="#"><i class="fa fa-weibo"></i></a></li>
+                <li><a target="_blank" href="http://weibo.com/hushaoyu0309"><i class="fa fa-weibo"></i></a></li>
                 <li><a href="#"><i class="fa fa-weixin"></i></a></li>
-                <li><a href="#"><i class="fa fa-qq"></i></a></li>
+                <li><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1558254995&site=qq&menu=yes"><i class="fa fa-qq"></i></a></li>
                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                 <li><a href="#"><i class="fa fa-github"></i></a></li>
@@ -122,8 +133,8 @@
 
                 <div class="columns download">
                     <p>
-                        <a href="details/about_me/about_index.html" class="button"><i class="fa fa-user-circle"></i>了解更多关于我</a><br>
-                        <a href="http://127.0.0.1/wordpress/index.php" class="button"><i class="fa fa-wordpress"></i>我的博客</a>
+                        <a href="details/about_me/about_index.html" target="_blank" class="button"><i class="fa fa-user-circle"></i>了解更多关于我</a><br>
+                        <a href="http://localhost/wordpress/index.php" target="_blank" class="button"><i class="fa fa-wordpress"></i>我的博客</a>
                     </p>
                 </div>
             </div> <!-- end row -->
@@ -141,7 +152,7 @@
     <div class="row skill">
 
         <div class="three columns header-col">
-            <h1><span>技能</span></h1>
+            <h1><span class="im">技能</span></h1>
         </div>
 
         <div class="nine columns main-col">
@@ -149,15 +160,50 @@
             <p>Make your life easier ！</p>
 
             <div class="bars">
-
-                <ul class="skills">
+                <span>Bootstrap</span>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
+                        45%
+                    </div>
+                </div>
+                <span>Illustrator</span>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-info active" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                        20%
+                    </div>
+                </div>
+                <span>JavaScript</span>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-warning active" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+                        50%
+                    </div>
+                </div>
+                <span>CSS</span>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-danger active" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                        90%
+                    </div>
+                </div>
+                <span>HTML5</span>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success active" role="progressbar" aria-valuenow="45" aria-valuemin="80" aria-valuemax="100" style="width: 80%">
+                        80%
+                    </div>
+                </div>
+                <span>jQuery</span>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-info active" role="progressbar" aria-valuenow="45" aria-valuemin="60" aria-valuemax="100" style="width: 60%">
+                        60%
+                    </div>
+                </div>
+                <!--<ul class="skills">
                     <li><span class="bar-expand bootstrap"></span><em>Bootstrap</em></li>
                     <li><span class="bar-expand illustrator"></span><em>Illustrator</em></li>
                     <li><span class="bar-expand javascript"></span><em>JavaScript</em></li>
                     <li><span class="bar-expand css"></span><em>CSS</em></li>
                     <li><span class="bar-expand html5"></span><em>HTML5</em></li>
                     <li><span class="bar-expand jquery"></span><em>jQuery</em></li>
-                </ul>
+                </ul>-->
             </div><!-- end skill-bars -->
         </div> <!-- main-col end -->
     </div> <!-- End skills -->
@@ -462,7 +508,7 @@
 
             <div class="header-col">
 
-                <h1><a class="type_1" href="details/life/life.html">影像馆</a></h1>
+                <h1><a class="type_1" href="details/life/life.html" target="_blank">影像馆</a></h1>
 
             </div>
 
@@ -692,20 +738,20 @@
         <div class="eight columns">
 
             <ul class="social-links">
-                <li><a href="http://www.bootcss.com/"><img src="images/footer/bootstrap.png" title="Bootstrap"
+                <li><a target="_blank" href="http://www.bootcss.com/"><img src="images/footer/bootstrap.png" title="Bootstrap"
                                                            class="img-circle"/></a></li>
-                <li><a href="http://fontawesome.io/"><img src="images/footer/fontawesome.png" title="Font Awesome"
+                <li><a target="_blank" href="http://fontawesome.io/"><img src="images/footer/fontawesome.png" title="Font Awesome"
                                                           class="img-circle"></a></li>
-                <li><a href="https://www.oschina.net/"><img src="images/footer/oschina.jpg" title="开源中国"
+                <li><a target="_blank" href="https://www.oschina.net/"><img src="images/footer/oschina.jpg" title="开源中国"
                                                             class="img-circle"></a></li>
-                <li><a href="https://docs.angularjs.org/"><img src="images/footer/angular.png" title="AngularJS"
+                <li><a target="_blank" href="https://docs.angularjs.org/"><img src="images/footer/angular.png" title="AngularJS"
                                                                class="img-circle"></a></li>
-                <li><a href="http://www.zcool.com.cn/"><img src="images/footer/ZCOOL.jpg" title="站酷" class="img-circle"></a>
+                <li><a target="_blank" href="http://www.zcool.com.cn/"><img src="images/footer/ZCOOL.jpg" title="站酷" class="img-circle"></a>
                 </li>
-                <li><a href="https://www.tutorialspoint.com/index.htm"><img src="images/footer/tutorialspoint.png"
+                <li><a target="_blank" href="https://www.tutorialspoint.com/index.htm"><img src="images/footer/tutorialspoint.png"
                                                                             title="tutorialspoint"
                                                                             class="img-circle"></a></li>
-                <li><a href="http://www.imooc.com/"><img src="images/footer/IMOOC.jpg" class="img-circle"
+                <li><a target="_blank" href="http://www.imooc.com/"><img src="images/footer/IMOOC.jpg" class="img-circle"
                                                          title="慕课网"></a></li>
             </ul>
 

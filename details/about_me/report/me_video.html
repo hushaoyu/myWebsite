@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>关于我</title>
+    <link rel="stylesheet" href="../../../bootstrap/css/bootstrap.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html, body {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        #background_video {
+            z-index: -1;
+            position: absolute;
+
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+        }
+
+        #overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.8);
+            z-index: 1 !important;
+            overflow: scroll;
+        }
+
+        .jumbotron {
+            opacity: 0.5;
+        }
+
+        .btn_first {
+            margin-top: 830px;
+        }
+
+        .btn_second {
+            margin-top: 830px;
+        }
+
+        .init {
+            margin-top: 0 !important;
+        }
+
+        #video_cover {
+            position: absolute;
+
+            width: 100%;
+            height: 100%;
+
+            background: url('source/school.jpeg') no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        #voice {
+            position: fixed;
+            bottom: 50px;
+            right: 60px;
+            z-index: 100;
+        }
+
+        .inline_p {
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+<video id="background_video" muted loop></video>
+<div id="overlay">
+    <div id="voice">
+        <p class="inline_p"><a class="btn bg-primary" id="voice_t" href="#">开启声音</a></p>
+        <p class="inline_p"><a class="btn bg-primary" id="voice_f" href="#">关闭声音</a></p>
+    </div>
+    <div class="container">
+        <div class="row row_first">
+            <div class="jumbotron">
+                <h1>Print your man</h1>
+                <p>3D打印人类</p>
+                <p><a class="btn bg-primary first" href="#">播放</a></p>
+            </div>
+        </div>
+        <div class="row row_second">
+            <div class="jumbotron">
+                <h1>Cause of nature</h1>
+                <p>自然的影响</p>
+                <p><a class="btn bg-primary next" href="#">播放</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="video_cover"></div>
+
+<!--javascript-->
+<script src="js/jquery-3.1.1.js"></script>
+<script src="js/bideo.js"></script>
+<script src="js/me_video.js"></script>
+<script>
+    //    开启声音
+    var voice_t = document.getElementById('voice_t');
+    voice_t.addEventListener("click", function () {
+        var video = document.getElementById('background_video');
+        video.muted = false;
+    });
+    //关闭声音
+    var voice_f = document.getElementById('voice_f');
+    voice_f.addEventListener("click", function () {
+        var video = document.getElementById('background_video');
+        video.muted = true;
+    });
+
+    $(function () {
+        $('.first').click(function () {
+            $('video').attr('src', 'source/printYourGirl.mp4');
+        });
+        $('.first').click(function () {
+            $('.row_first').addClass('btn_first');
+            $('.row_second').removeClass('btn_second');
+            $('.row_first').removeClass('init');
+        });
+        $('.next').click(function () {
+            $('video').attr('src', 'source/courseOfNature.mp4');
+        });
+        $('.next').click(function () {
+            $('.row_second').addClass('btn_second');
+            $('.row_first').addClass('init');
+            $('.row_first').removeClass('btn_first');
+        });
+    });
+</script>
+</body>
+</html>

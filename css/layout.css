@@ -357,8 +357,8 @@ ul#nav li.current a {
 
 .bootstrap {
     width: 30%;
-    -moz-animation: photoshop 2s ease;
-    -webkit-animation: photoshop 2s ease;
+    -moz-animation: bootstrap 2s ease;
+    -webkit-animation: bootstrap 2s ease;
 }
 
 .illustrator {
@@ -445,7 +445,7 @@ ul#nav li.current a {
     }
 }
 
-@-webkit-keyframes photoshop {
+@-webkit-keyframes bootstrap {
     0% {
         width: 0px;
     }
