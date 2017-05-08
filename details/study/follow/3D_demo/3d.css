@@ -11,6 +11,7 @@
     -moz-perspective-origin: center center;
     -ms-perspective-origin: center center;
     perspective-origin: center center;
+    overflow: hidden;
 }
 .stage{
     width: 100%;
